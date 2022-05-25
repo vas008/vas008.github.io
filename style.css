@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+body{
+    margin: 0px;
+    background-color: #4D4D48;
+}
+
+h1{
+    color: #FFF700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    padding: 40px;
+    width: 270px;
+    margin: 20px auto;
+    transition: 0.5s;
+}
+
+p{
+   color: #FFFFFF;
+   background-color: #E5DE1B;
+   width: 600px;
+   text-align: center;
+   font-family: 'Arial';
+   font-weight: 900;
+   font-size: 35px;
+   padding: 40px;
+   margin: 50px auto;
+   text-shadow: 8px 15px 10px #726E0B;
+   box-shadow: 8px 20px 10px 10px #383832;
+   transition: 0.3s;
+}
+
+img{
+    display: block;
+    margin: 5px auto;
+    border: 15px double #E5DE1B;
+    transition: 0.5s; 
+    width: 0.5;
+    height: 50%;
+}
+
+/*------------1я задача -------*/
+
+h1:hover{
+    transform: scale(1.2);
+}
+
+img:hover{
+    transform: skew(6deg, 6deg);
+    box-shadow: 15px 10px 15px 10px #383832;
+}
+
+p:hover{
+    transform: translate(0px, -20px);
+}
+
+/*------------2я задача ---------*/
